@@ -1,0 +1,32 @@
+[
+  {
+    "path": "",
+    "component": "Window",
+    "children": [
+      {
+        "path": "",
+        "component": "App"
+      },
+      {
+        "path": "window",
+        "component": "Window",
+        "children": [
+          {
+            "path": "",
+            "component": "App"
+          }
+        ]
+      },
+      {
+        "path": "form",
+        "component": "Form",
+        "children": [
+          {
+            "path": "simple-input",
+            "component": "SimpleInput"
+          }
+        ]
+      }
+    ]
+  }
+]

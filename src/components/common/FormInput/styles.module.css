@@ -1,0 +1,27 @@
+.InputFieldWrapper {
+  padding: 8px 12px;
+  display: grid;
+  gap: 6px;
+  text-align: center;
+  min-width: fit-content;
+  width: 400px;
+}
+
+.InputFieldWrapper > label {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.InputFieldWrapper > input {
+  height: 3.5ch;
+  border-radius: 6px;
+  transition: border 50ms;
+  stroke: none;
+  border: none;
+  outline: none;
+}
+
+.InputFieldWrapper > input:focus {
+  border: 2px solid rgb(51, 111, 223);
+}

@@ -1,0 +1,12 @@
+.sub-container {
+  height: calc(100vh - var(--navbar-height));
+  max-height: calc(100vh - var(--navbar-height));
+  background-color: var(--primary-900);
+  padding-top: 1px;
+}
+
+.container {
+  overflow: hidden;
+  padding: auto;
+  margin: auto;
+}

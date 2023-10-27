@@ -1,0 +1,13 @@
+.App {
+  position: relative;  
+  width: 100%;
+}
+
+.App > section,
+.App > pre {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
